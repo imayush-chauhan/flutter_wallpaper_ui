@@ -34,7 +34,7 @@ class _ParallaxImageState extends State<ParallaxImage> {
       backgroundColor: const Color(0xffF8F7FF),
       body: Center(
         child: SizedBox(
-          height: 600,
+          height: 500,
           child: ListView.builder(
             itemCount: img.length,
             scrollDirection: Axis.horizontal,
@@ -44,7 +44,7 @@ class _ParallaxImageState extends State<ParallaxImage> {
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(10),
                   child: SizedBox(
-                    width: 350,
+                    width: 325,
                     child: parallax(index),
                   ),
                 ),
