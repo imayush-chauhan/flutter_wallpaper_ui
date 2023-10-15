@@ -1,8 +1,5 @@
-# flutter_main
+# Flutter Wallpaper UI
 
-A new Flutter project.
-
-## Getting Started
 
 This project is a starting point for a Flutter application.
 
